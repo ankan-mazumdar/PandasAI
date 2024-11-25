@@ -1,4 +1,4 @@
-# PandasAI - Enhancing Pandas with Generative AI
+# PandasAI - Enhancing MYSQL(local DB)and  Pandas with Generative AI
 
 A Python library that extends Pandas capabilities using generative AI models for advanced data analysis and manipulation.
 
