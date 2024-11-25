@@ -93,12 +93,23 @@ response = pandas_ai.run(df, prompt='Plot a bar chart showing top 10 job titles'
 - pandas
 - API key for chosen LLM provider
 
-[3] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/14488466/4e9454ba-cc90-468c-a658-558b4d730396/Presentation-1.pptx
 
-### Features:
+<img width="658" alt="Screenshot 2024-11-24 at 7 44 12 PM" src="https://github.com/user-attachments/assets/55b5270a-a86f-4500-a94d-5d2e49be887a">
+![image](https://github.com/user-attachments/assets/a779e8a5-abdc-4b95-b123-da13a162e7c9)
+![image](https://github.com/user-attachments/assets/92388f8c-5d31-41bf-8244-7bde9f1a199b)
 
-- Ask questions about your data in natural language.
-- Generate plots to visualize your data.
+![image](https://github.com/user-attachments/assets/26c98954-6a43-4577-a6d1-c26aec64bb37)
+![image](https://github.com/user-attachments/assets/a8dc699e-8c4c-4241-9d5c-9493185a06ed)
+![image](https://github.com/user-attachments/assets/fe50814b-7abf-4679-af10-a2f42d309ae3)
+
+![image](https://github.com/user-attachments/assets/4ce3279f-5ace-4e65-9a73-ed14795ef3f8)
+
+![image](https://github.com/user-attachments/assets/15969eb3-54f4-4e82-b358-ddf6aeaf0eb6)
+
+![image](https://github.com/user-attachments/assets/9920f4d9-29cc-49b1-a49d-0b6a2204cfc4)
+
+![image](https://github.com/user-attachments/assets/3cd478fe-6531-45b2-ac0c-fba199b94e47)
+
 
 
 
