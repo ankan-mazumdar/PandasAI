@@ -95,11 +95,15 @@ response = pandas_ai.run(df, prompt='Plot a bar chart showing top 10 job titles'
 
 
 <img width="658" alt="Screenshot 2024-11-24 at 7 44 12 PM" src="https://github.com/user-attachments/assets/55b5270a-a86f-4500-a94d-5d2e49be887a">
+
 ![image](https://github.com/user-attachments/assets/a779e8a5-abdc-4b95-b123-da13a162e7c9)
+
 ![image](https://github.com/user-attachments/assets/92388f8c-5d31-41bf-8244-7bde9f1a199b)
 
 ![image](https://github.com/user-attachments/assets/26c98954-6a43-4577-a6d1-c26aec64bb37)
+
 ![image](https://github.com/user-attachments/assets/a8dc699e-8c4c-4241-9d5c-9493185a06ed)
+
 ![image](https://github.com/user-attachments/assets/fe50814b-7abf-4679-af10-a2f42d309ae3)
 
 <img width="274" alt="Screenshot 2024-11-24 at 8 04 38 PM" src="https://github.com/user-attachments/assets/9cd5c924-b210-4587-9821-f6b2b4ecbfd5">
