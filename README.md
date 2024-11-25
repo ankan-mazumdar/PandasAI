@@ -93,6 +93,22 @@ response = pandas_ai.run(df, prompt='Plot a bar chart showing top 10 job titles'
 - pandas
 - API key for chosen LLM provider
 
+![image](https://github.com/user-attachments/assets/0c19ca89-d915-465c-9993-aa5ba7879526)
+
+![image](https://github.com/user-attachments/assets/c4182d9d-b0a3-4503-a039-d99ce98c018a)
+
+![image](https://github.com/user-attachments/assets/6ae69fea-1876-48d8-9270-8c877b13de34)
+
+
+
+![image](https://github.com/user-attachments/assets/2ca15354-d5b9-49ca-ad06-62b9611acd01)
+
+![image](https://github.com/user-attachments/assets/fe1b7370-4e46-4a4e-9f9a-7c47e3699349)
+
+![image](https://github.com/user-attachments/assets/c6fe9135-be82-4a1c-8ac5-2632f477f0e0)
+
+![image](https://github.com/user-attachments/assets/2510d27b-7dc0-447b-943a-52f957c75b12)
+
 
 <img width="658" alt="Screenshot 2024-11-24 at 7 44 12 PM" src="https://github.com/user-attachments/assets/55b5270a-a86f-4500-a94d-5d2e49be887a">
 
