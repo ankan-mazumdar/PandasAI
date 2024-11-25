@@ -1,52 +1,105 @@
-# Learn PandasAI with Examples
+# PandasAI - Enhancing Pandas with Generative AI
 
-[![](https://img.shields.io/badge/python-darkblue?&style=plastic&logo=python&logoColor=white)]()
-[![](https://img.shields.io/badge/pandasai-darkred?&style=plastic&logo=pandas&logoColor=white)]()
-[![](https://img.shields.io/badge/ollama-black?&style=plastic&logo=ollama&logoColor=white)]()
-[![](https://img.shields.io/badge/streamlit-darkgreen?&style=plastic&logo=streamlit&logoColor=white)]()
-[![](https://img.shields.io/badge/chainlit-blue?&style=plastic&logo=chainlit&logoColor=white)]()
-[![](https://img.shields.io/badge/llama3-640D6B?&style=plastic&logo=meta&logoColor=white)]()
+A Python library that extends Pandas capabilities using generative AI models for advanced data analysis and manipulation.
 
-Welcome to my PandasAI repo. This repo includes tutorials on how to use Pandas AI. Let me briefly explain this tool.
+## Features
 
-[PandasAI](https://docs.pandas-ai.com/en/latest/) is an amazing Python library that allows you to talk to your data. It helps you to explore, clean, and analyze your data using generative AI.
+- Enhanced data preprocessing and cleaning
+- Complex data manipulations using natural language
+- Pattern detection and outlier analysis
+- Missing value handling through AI
+- Data visualization using simple prompts
+- Support for multiple LLM backends
+
+## Supported LLM Integrations
+
+- OpenAI models
+- HuggingFace models (Starcoder, Falcon)
+- Google PaLM
+- Google VertexAI
+- Azure OpenAI
+- LangChain models
+
+## Installation
+
+```bash
+pip install pandasai
+```
+
+## Quick Start
+
+```python
+import pandas as pd
+from pandasai import PandasAI
+from pandasai.llm.openai import OpenAI
+
+# Set up OpenAI
+import os
+openai_api_key = os.environ["OPENAI_API_KEY"]
+llm = OpenAI(api_token=openai_api_key)
+
+# Initialize PandasAI
+pandas_ai = PandasAI(llm)
+
+# Load your data
+df = pd.read_csv("your_data.csv")
+
+# Run analysis with natural language
+response = pandas_ai.run(df, prompt='Your analysis question here')
+```
+
+## Alternative LLM Setup
+
+```python
+# Google PaLM
+from pandasai.llm.google_palm import GooglePalm
+llm = GooglePalm(api_token="YOUR_GOOGLE_API_KEY")
+
+# Starcoder
+from pandasai.llm.starcoder import Starcoder
+llm = Starcoder(api_token="YOUR_HF_API_KEY")
+
+# Falcon
+from pandasai.llm.falcon import Falcon
+llm = Falcon(api_token="YOUR_HF_API_KEY")
+```
+
+## Features
+
+- **Data Analysis**: Query your data using natural language
+- **Data Visualization**: Create plots and charts with simple prompts
+- **Statistical Analysis**: Perform complex calculations using conversational language
+- **Pattern Recognition**: Identify trends and patterns in your data
+- Clean datasets by addressing missing values.
+- Enhance data quality through feature generation.
+- Connect to various data sources like CSV, XLSX, PostgreSQL, MySQL, BigQuery, Databrick, Snowflake, etc.
+
+## Example Usage
+
+```python
+# List top entries
+response = pandas_ai.run(df, prompt='List the first 5 job titles by salary')
+
+# Calculate averages
+response = pandas_ai.run(df, prompt='What is the average salary by job titles?')
+
+# Create visualizations
+response = pandas_ai.run(df, prompt='Plot a bar chart showing top 10 job titles')
+```
+
+## Requirements
+
+- Python 3.6+
+- pandas
+- API key for chosen LLM provider
+
+[3] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/14488466/4e9454ba-cc90-468c-a658-558b4d730396/Presentation-1.pptx
 
 ### Features:
 
 - Ask questions about your data in natural language.
 - Generate plots to visualize your data.
-- Clean datasets by addressing missing values.
-- Enhance data quality through feature generation.
-- Connect to various data sources like CSV, XLSX, PostgreSQL, MySQL, BigQuery, Databrick, Snowflake, etc.
 
-To install PandasAI, run this command: 
 
-```
-# Using poetry (recommended)
-poetry add pandasai
 
-# Using pip
-pip install pandasai
-```
 
-<!-- YOUTUBE:START -->
-
-<!-- YOUTUBE:END -->
-
-### 🚀 My YouTube Videos (Python code walkthrough) 👇
-
-<a href="https://www.youtube.com/channel/UCFU9Go20p01kC64w-tmFORw" target="_blank"><img src="https://github.com/TirendazAcademy/PandasAI-Tutorials/blob/main/Images/pandaai-5.png" alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
-
-- [MySQL with PandasAI](https://youtu.be/o88et_D8qlg)
-- [PandasAI Agent](https://youtu.be/9nyiePIrtbE)
-- [PandasAI with Llama-3](https://youtu.be/_dDaNgBDoHY)
-- [Data visualization with PandasAI](https://youtu.be/j-FQnJvesH4)
-- [Build an app with PandasAI, Ollama and Streamlit](https://youtu.be/-bt9grGmNvs)
-- [Pandas with Groq API](https://youtu.be/C6R9JLHZDH0)
-- [Data Analysis with PandasAI and Ollama](https://youtu.be/bw_e6xgGSTY)
-- [Introduction to Pandas AI](https://youtu.be/aUds2W7A_FY)
-
-### 🚀 Medium
-- [Meet PandasAI](https://levelup.gitconnected.com/pandasai-unlocking-the-power-of-data-with-generative-ai-3196cbccba34)
-
-🔗 Let's connect [YouTube](http://youtube.com/tirendazacademy) | [Medium](http://tirendazacademy.medium.com) | [X](http://x.com/tirendazacademy) | [Linkedin](https://www.linkedin.com/in/tirendaz-academy) 😎
