@@ -95,9 +95,9 @@ response = pandas_ai.run(df, prompt='Plot a bar chart showing top 10 job titles'
 
 ![image](https://github.com/user-attachments/assets/0c19ca89-d915-465c-9993-aa5ba7879526)
 
-![image](https://github.com/user-attachments/assets/c4182d9d-b0a3-4503-a039-d99ce98c018a)
 
-![image](https://github.com/user-attachments/assets/6ae69fea-1876-48d8-9270-8c877b13de34)
+![image](https://github.com/user-attachments/assets/e6797193-0c2e-4cd6-8b3c-b7f112f5ff10)
+
 
 
 
